@@ -5,7 +5,7 @@
 You can install the package via composer:
 
 ```bash
-composer require vyuldashev/laravel-openapi
+composer require fnematov/laravel-openapi
 ```
 
 The service provider will automatically get registered. Or you may manually add the service provider in your config/app.php file:
@@ -13,14 +13,14 @@ The service provider will automatically get registered. Or you may manually add 
 ```bash
 'providers' => [
     // ...
-    Vyuldashev\LaravelOpenApi\OpenApiServiceProvider::class,
+    Fnematov\LaravelOpenApi\OpenApiServiceProvider::class,
 ];
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="Vyuldashev\LaravelOpenApi\OpenApiServiceProvider" --tag="openapi-config"
+php artisan vendor:publish --provider="Fnematov\LaravelOpenApi\OpenApiServiceProvider" --tag="openapi-config"
 ```
 
 ## Additional information

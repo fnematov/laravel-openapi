@@ -35,7 +35,7 @@ class ListUsersParameters extends ParametersFactory
 Finally, add `Parameters` attribute below `Operation` attribute:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use Fnematov\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller 
 {
@@ -83,7 +83,7 @@ Let's assume we have route `Route::get('/users/{user}', 'UserController@show')`.
 There is no need to add `Parameters` attribute as route parameters are automatically added to parameters definition:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use Fnematov\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller 
 {
