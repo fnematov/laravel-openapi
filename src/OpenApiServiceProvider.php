@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi;
+namespace Fnematov\LaravelOpenApi;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use Vyuldashev\LaravelOpenApi\Builders\Components\CallbacksBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\RequestBodiesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\ResponsesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\SchemasBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\SecuritySchemesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\ComponentsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\InfoBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\PathsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\ServersBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\TagsBuilder;
+use Fnematov\LaravelOpenApi\Builders\Components\CallbacksBuilder;
+use Fnematov\LaravelOpenApi\Builders\Components\RequestBodiesBuilder;
+use Fnematov\LaravelOpenApi\Builders\Components\ResponsesBuilder;
+use Fnematov\LaravelOpenApi\Builders\Components\SchemasBuilder;
+use Fnematov\LaravelOpenApi\Builders\Components\SecuritySchemesBuilder;
+use Fnematov\LaravelOpenApi\Builders\ComponentsBuilder;
+use Fnematov\LaravelOpenApi\Builders\InfoBuilder;
+use Fnematov\LaravelOpenApi\Builders\PathsBuilder;
+use Fnematov\LaravelOpenApi\Builders\ServersBuilder;
+use Fnematov\LaravelOpenApi\Builders\TagsBuilder;
 
 class OpenApiServiceProvider extends ServiceProvider
 {

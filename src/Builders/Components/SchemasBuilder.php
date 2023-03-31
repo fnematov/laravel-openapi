@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Components;
+namespace Fnematov\LaravelOpenApi\Builders\Components;
 
-use Vyuldashev\LaravelOpenApi\Contracts\Reusable;
-use Vyuldashev\LaravelOpenApi\Factories\SchemaFactory;
-use Vyuldashev\LaravelOpenApi\Generator;
+use Fnematov\LaravelOpenApi\Contracts\Reusable;
+use Fnematov\LaravelOpenApi\Factories\SchemaFactory;
+use Fnematov\LaravelOpenApi\Generator;
 
 class SchemasBuilder extends Builder
 {

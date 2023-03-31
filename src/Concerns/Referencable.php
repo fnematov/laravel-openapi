@@ -1,16 +1,16 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Concerns;
+namespace Fnematov\LaravelOpenApi\Concerns;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Schema;
 use InvalidArgumentException;
-use Vyuldashev\LaravelOpenApi\Contracts\Reusable;
-use Vyuldashev\LaravelOpenApi\Factories\CallbackFactory;
-use Vyuldashev\LaravelOpenApi\Factories\ParametersFactory;
-use Vyuldashev\LaravelOpenApi\Factories\RequestBodyFactory;
-use Vyuldashev\LaravelOpenApi\Factories\ResponseFactory;
-use Vyuldashev\LaravelOpenApi\Factories\SchemaFactory;
-use Vyuldashev\LaravelOpenApi\Factories\SecuritySchemeFactory;
+use Fnematov\LaravelOpenApi\Contracts\Reusable;
+use Fnematov\LaravelOpenApi\Factories\CallbackFactory;
+use Fnematov\LaravelOpenApi\Factories\ParametersFactory;
+use Fnematov\LaravelOpenApi\Factories\RequestBodyFactory;
+use Fnematov\LaravelOpenApi\Factories\ResponseFactory;
+use Fnematov\LaravelOpenApi\Factories\SchemaFactory;
+use Fnematov\LaravelOpenApi\Factories\SecuritySchemeFactory;
 
 trait Referencable
 {

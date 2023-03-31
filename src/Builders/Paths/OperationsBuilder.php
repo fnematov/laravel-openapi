@@ -1,21 +1,21 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Paths;
+namespace Fnematov\LaravelOpenApi\Builders\Paths;
 
 use GoldSpecDigital\ObjectOrientedOAS\Exceptions\InvalidArgumentException;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Operation;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use phpDocumentor\Reflection\DocBlock;
-use Vyuldashev\LaravelOpenApi\Attributes\Operation as OperationAttribute;
-use Vyuldashev\LaravelOpenApi\Builders\ExtensionsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\CallbacksBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\ParametersBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\RequestBodyBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\ResponsesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\SecurityBuilder;
-use Vyuldashev\LaravelOpenApi\Factories\ServerFactory;
-use Vyuldashev\LaravelOpenApi\RouteInformation;
+use Fnematov\LaravelOpenApi\Attributes\Operation as OperationAttribute;
+use Fnematov\LaravelOpenApi\Builders\ExtensionsBuilder;
+use Fnematov\LaravelOpenApi\Builders\Paths\Operation\CallbacksBuilder;
+use Fnematov\LaravelOpenApi\Builders\Paths\Operation\ParametersBuilder;
+use Fnematov\LaravelOpenApi\Builders\Paths\Operation\RequestBodyBuilder;
+use Fnematov\LaravelOpenApi\Builders\Paths\Operation\ResponsesBuilder;
+use Fnematov\LaravelOpenApi\Builders\Paths\Operation\SecurityBuilder;
+use Fnematov\LaravelOpenApi\Factories\ServerFactory;
+use Fnematov\LaravelOpenApi\RouteInformation;
 
 class OperationsBuilder
 {

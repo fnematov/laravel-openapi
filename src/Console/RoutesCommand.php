@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi\Console;
+namespace Fnematov\LaravelOpenApi\Console;
 
 use Illuminate\Console\Command;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Tests;
+namespace Fnematov\LaravelOpenApi\Tests;
 
 use GoldSpecDigital\ObjectOrientedOAS\OpenApi;
-use Vyuldashev\LaravelOpenApi\Generator;
-use Vyuldashev\LaravelOpenApi\OpenApiServiceProvider;
+use Fnematov\LaravelOpenApi\Generator;
+use Fnematov\LaravelOpenApi\OpenApiServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

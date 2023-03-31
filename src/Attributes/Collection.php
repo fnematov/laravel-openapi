@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Attributes;
+namespace Fnematov\LaravelOpenApi\Attributes;
 
 use Attribute;
 

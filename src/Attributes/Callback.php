@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Attributes;
+namespace Fnematov\LaravelOpenApi\Attributes;
 
 use Attribute;
 use InvalidArgumentException;
-use Vyuldashev\LaravelOpenApi\Factories\CallbackFactory;
+use Fnematov\LaravelOpenApi\Factories\CallbackFactory;
 
 #[Attribute]
 class Callback
