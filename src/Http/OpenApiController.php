@@ -7,8 +7,8 @@ use Vyuldashev\LaravelOpenApi\Generator;
 
 class OpenApiController
 {
-    public function show(Generator $generator): OpenApi
+    public function show(Generator $generator, string $collection = 'default'): OpenApi
     {
-        return $generator->generate();
+        return $generator->generate($collection);
     }
 }
